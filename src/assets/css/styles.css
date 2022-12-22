@@ -3,13 +3,68 @@
 :root {
     --primary: #ff6565;
     --secondary: #FFBB2E;
-    --success: ##33BC03;
+    --success: #33BC03;
     --danger: #F75157;
     --gray: #BCBCBC;
     --lightgray: #F1F7FC;
 }
 
-* {
+body {
     background-color: var(--lightgray);
     font-family: 'Sora', sans-serif;
+}
+
+.text-color-primary {
+    color: var(--primary);
+}
+
+.text-color-success {
+    color: var(--success)
+}
+
+.bg-color-primary {
+    background-color: var(--primary);
+}
+
+.bg-color-primary:hover {
+    background-color: #e94a4a;
+}
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.product-title {
+    font-size: 0.8rem;
+}
+
+.remove-text {
+    font-size: 0.7rem;
+}
+
+.order-wrapper {
+    min-height: 30rem;
+}
+
+.border-dashed {
+    border: #c9c9c9 dashed;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+
 }
